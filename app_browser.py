@@ -112,4 +112,4 @@ if __name__ == '__main__':
     print("📱 This version uses browser speech recognition (no PyAudio needed)")
     print("🌐 Access at: http://localhost:5000")
     print("🔊 Make sure to allow microphone access in your browser")
-    socketio.run(app, debug=True, host='0.0.0.0', port=5000)
+    socketio.run(app, debug=True, host='0.0.0.0', port=5001)
